@@ -1,4 +1,6 @@
 import Vapor
+import Fluent
+import FluentPostgresDriver
 
 func routes(_ app: Application) throws {
     app.get { req async in
